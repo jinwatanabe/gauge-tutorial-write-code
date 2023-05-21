@@ -1,0 +1,188 @@
+22-05-2023 08:47:16.429 [Gauge] [DEBUG] Created gauge_screenshots_dir at /home/watanabejin/workspace/gauge-inte/.gauge/screenshots
+22-05-2023 08:47:16.430 [Gauge] [DEBUG] Plugin java is already installed.
+22-05-2023 08:47:16.433 [Gauge] [DEBUG] Plugin html-report is already installed.
+22-05-2023 08:47:16.433 [Gauge] [DEBUG] Parsing started.
+22-05-2023 08:47:16.433 [Gauge] [DEBUG] Started concepts parsing.
+22-05-2023 08:47:16.434 [Gauge] [DEBUG] 0 concepts parsing completed.
+22-05-2023 08:47:16.434 [Gauge] [DEBUG] Started specifications parsing.
+22-05-2023 08:47:16.434 [Gauge] [DEBUG] 1 specifications parsing completed.
+22-05-2023 08:47:16.434 [Gauge] [DEBUG] Parsing completed.
+22-05-2023 08:47:16.710 [java] [DEBUG] multithreading is set to false
+22-05-2023 08:47:16.728 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+22-05-2023 08:47:16.887 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+22-05-2023 08:47:16.888 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+22-05-2023 08:47:16.888 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+22-05-2023 08:47:17.438 [java] [DEBUG] gauge-java took 729milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+22-05-2023 08:47:17.443 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 729
+22-05-2023 08:47:17.444 [java] [DEBUG] starting gRPC server...
+22-05-2023 08:47:17.599 [java] [DEBUG] started gRPC server on port 42717
+22-05-2023 08:47:17.599 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 42717
+22-05-2023 08:47:17.763 [Gauge] [DEBUG] Successfully made the connection with runner with port: 42717
+22-05-2023 08:47:17.763 [Gauge] [DEBUG] Validation started.
+22-05-2023 08:47:18.539 [Gauge] [DEBUG] Checking updates...
+22-05-2023 08:47:18.540 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot&o=linux&a=amd64
+22-05-2023 08:47:19.104 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot&o=linux&a=amd64
+22-05-2023 08:47:19.204 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot&o=linux&a=amd64
+22-05-2023 08:47:19.689 [java] [DEBUG] Scanning packages for steps
+22-05-2023 08:47:19.708 [java] [DEBUG] Loading レスポンスのJSONの配列{}に、整数値{}が存在しないvia reflected sources.
+22-05-2023 08:47:19.711 [java] [DEBUG] Loading API{}のURL{}にヘッダー{}で、GETリクエストされたvia reflected sources.
+22-05-2023 08:47:19.711 [java] [DEBUG] Loading レスポンスのJSONの配列{}に、小数値{}が存在しないvia reflected sources.
+22-05-2023 08:47:19.711 [java] [DEBUG] Loading レスポンスのJSONの配列{}に、小数値{}が存在するvia reflected sources.
+22-05-2023 08:47:19.712 [java] [DEBUG] Loading API{}のURL{}にパス{}に文字列{}を持つJSONをリクエストされたvia reflected sources.
+22-05-2023 08:47:19.712 [java] [DEBUG] Loading API{}のURL{}にパス{}に小数値{}を持つJSONでPUTリクエストされたvia reflected sources.
+22-05-2023 08:47:19.712 [java] [DEBUG] Loading API{}のURL{}にパス{}に文字列{}を持つJSONでPUTリクエストされたvia reflected sources.
+22-05-2023 08:47:19.712 [java] [DEBUG] Loading API{}のURL{}にパス{}に真偽値{}を持つJSONでPUTリクエストされたvia reflected sources.
+22-05-2023 08:47:19.713 [java] [DEBUG] Loading API{}のURL{}にパス{}に整数値{}を持つJSONでPUTリクエストされたvia reflected sources.
+22-05-2023 08:47:19.713 [java] [DEBUG] Loading URL{}にヘッダー{}で、GETリクエストを送るvia reflected sources.
+22-05-2023 08:47:19.713 [java] [DEBUG] Loading URL{}にGETリクエストを送るvia reflected sources.
+22-05-2023 08:47:19.713 [java] [DEBUG] Loading レスポンスのJSONの配列{}が、数値{}の昇順に並んでいるvia reflected sources.
+22-05-2023 08:47:19.714 [java] [DEBUG] Loading レスポンスボディが文字列{}であるvia reflected sources.
+22-05-2023 08:47:19.714 [java] [DEBUG] Loading レスポンスのJSONの{}の配列の長さが{}であるvia reflected sources.
+22-05-2023 08:47:19.714 [java] [DEBUG] Loading レスポンスのJSONの配列{}に、整数値{}が存在するvia reflected sources.
+22-05-2023 08:47:19.714 [java] [DEBUG] Loading レスポンスヘッダーに{}が存在し、その値が{}であるvia reflected sources.
+22-05-2023 08:47:19.714 [java] [DEBUG] Loading URL{}にヘッダー{}で、DELETEリクエストを送るvia reflected sources.
+22-05-2023 08:47:19.715 [java] [DEBUG] Loading URL{}にDELETEリクエストを送るvia reflected sources.
+22-05-2023 08:47:19.715 [java] [DEBUG] Loading レスポンスのJSONの配列{}に、文字列{}が存在しないvia reflected sources.
+22-05-2023 08:47:19.715 [java] [DEBUG] Loading API{}のURL{}にヘッダー{}で、DELETEリクエストされたvia reflected sources.
+22-05-2023 08:47:19.715 [java] [DEBUG] Loading レスポンスのJSONの配列{}が、文字列{}の降順に並んでいるvia reflected sources.
+22-05-2023 08:47:19.716 [java] [DEBUG] Loading レスポンスのJSONの配列{}が、日付/時間{}の降順に並んでいるvia reflected sources.
+22-05-2023 08:47:19.717 [java] [DEBUG] Loading レスポンスのJSONの配列{}が、数値{}の降順に並んでいるvia reflected sources.
+22-05-2023 08:47:19.717 [java] [DEBUG] Loading API{}のURL{}にヘッダー{}で、PUTリクエストされたvia reflected sources.
+22-05-2023 08:47:19.717 [java] [DEBUG] Loading API{}のURL{}にボディ{}JSONファイルの内容、ヘッダー{}で、PUTリクエストされたvia reflected sources.
+22-05-2023 08:47:19.717 [java] [DEBUG] Loading レスポンスステータスコードが{}であるvia reflected sources.
+22-05-2023 08:47:19.717 [java] [DEBUG] Loading レスポンスボディがバイナリ{}であるvia reflected sources.
+22-05-2023 08:47:19.718 [java] [DEBUG] Loading レスポンスのJSONの配列{}が、文字列{}の昇順に並んでいるvia reflected sources.
+22-05-2023 08:47:19.718 [java] [DEBUG] Loading レスポンスのJSONの配列{}が、日付/時間{}の昇順に並んでいるvia reflected sources.
+22-05-2023 08:47:19.718 [java] [DEBUG] Loading API{}のURL{}にパス{}に真偽値{}を持つJSONでPOSTリクエストされたvia reflected sources.
+22-05-2023 08:47:19.718 [java] [DEBUG] Loading URL{}にPOSTリクエストを送るvia reflected sources.
+22-05-2023 08:47:19.718 [java] [DEBUG] Loading URL{}にボディ{}、ヘッダー{}で、POSTリクエストを送るvia reflected sources.
+22-05-2023 08:47:19.719 [java] [DEBUG] Loading API{}のURL{}にパス{}に小数値{}を持つJSONでPOSTリクエストされたvia reflected sources.
+22-05-2023 08:47:19.719 [java] [DEBUG] Loading API{}のURL{}にパス{}に整数値{}を持つJSONでPOSTリクエストされたvia reflected sources.
+22-05-2023 08:47:19.719 [java] [DEBUG] Loading API{}のURL{}にパス{}に文字列{}を持つJSONでPOSTリクエストされたvia reflected sources.
+22-05-2023 08:47:19.719 [java] [DEBUG] Loading URL{}にボディ{}で、POSTリクエストを送るvia reflected sources.
+22-05-2023 08:47:19.719 [java] [DEBUG] Loading レスポンスのJSONの配列{}に、文字列{}が存在するvia reflected sources.
+22-05-2023 08:47:19.720 [java] [DEBUG] Loading レスポンスのJSONの配列{}が、タイムゾーン付きの日付/時間{}の降順に並んでいるvia reflected sources.
+22-05-2023 08:47:19.720 [java] [DEBUG] Loading レスポンスのJSONの{}が真偽値のfalseであるvia reflected sources.
+22-05-2023 08:47:19.720 [java] [DEBUG] Loading レスポンスのJSONの{}の配列の、UniqueKey{}の値が{}である要素の{}が、文字列の{}であるvia reflected sources.
+22-05-2023 08:47:19.720 [java] [DEBUG] Loading API{}のURL{}にパス{}に整数値{}を持つJSONをリクエストされたvia reflected sources.
+22-05-2023 08:47:19.720 [java] [DEBUG] Loading HelloWorldを出力するvia reflected sources.
+22-05-2023 08:47:19.721 [java] [DEBUG] Loading レスポンスのJSONの{}が存在しないvia reflected sources.
+22-05-2023 08:47:19.721 [java] [DEBUG] Loading レスポンスのJSONの{}が真偽値のtrueであるvia reflected sources.
+22-05-2023 08:47:19.721 [java] [DEBUG] Loading レスポンスのJSONの{}が小数の{}であるvia reflected sources.
+22-05-2023 08:47:19.721 [java] [DEBUG] Loading レスポンスのJSONの{}の配列の、UniqueKey{}の値が{}である要素の{}が、真偽値の{}であるvia reflected sources.
+22-05-2023 08:47:19.721 [java] [DEBUG] Loading レスポンスのJSONの{}の配列に、Key{}の値が{}である要素が存在するvia reflected sources.
+22-05-2023 08:47:19.721 [java] [DEBUG] Loading レスポンスのJSONの{}が整数の{}であるvia reflected sources.
+22-05-2023 08:47:19.722 [java] [DEBUG] Loading API{}のURL{}にヘッダー{}:{}を含むリクエストをされたvia reflected sources.
+22-05-2023 08:47:19.722 [java] [DEBUG] Loading レスポンスのJSONの{}の配列の、UniqueKey{}の値が{}である要素の{}が、整数値の{}であるvia reflected sources.
+22-05-2023 08:47:19.722 [java] [DEBUG] Loading API{}のURL{}にDELETEリクエストされたvia reflected sources.
+22-05-2023 08:47:19.722 [java] [DEBUG] Loading レスポンスのJSONの配列{}が、タイムゾーン付きの日付/時間{}の昇順に並んでいるvia reflected sources.
+22-05-2023 08:47:19.723 [java] [DEBUG] Loading URL{}にボディ{}、ヘッダー{}で、PUTリクエストを送るvia reflected sources.
+22-05-2023 08:47:19.723 [java] [DEBUG] Loading URL{}にボディ{}で、PUTリクエストを送るvia reflected sources.
+22-05-2023 08:47:19.723 [java] [DEBUG] Loading URL{}にPUTリクエストを送るvia reflected sources.
+22-05-2023 08:47:19.723 [java] [DEBUG] Loading レスポンスのJSONの{}の配列の、UniqueKey{}の値が{}である要素の{}が、小数値の{}であるvia reflected sources.
+22-05-2023 08:47:19.724 [java] [DEBUG] Loading レスポンスのJSONの{}が真偽値の{}であるvia reflected sources.
+22-05-2023 08:47:19.724 [java] [DEBUG] Loading API{}のURL{}にパス{}に小数値{}を持つJSONをリクエストされたvia reflected sources.
+22-05-2023 08:47:19.724 [java] [DEBUG] Loading API{}のURL{}にパス{}に真偽値{}を持つJSONをリクエストされたvia reflected sources.
+22-05-2023 08:47:19.724 [java] [DEBUG] Loading URL{}にヘッダー{}で、PUTリクエストを送るvia reflected sources.
+22-05-2023 08:47:19.725 [java] [DEBUG] Loading レスポンスのJSONの{}が文字列の{}であるvia reflected sources.
+22-05-2023 08:47:19.725 [java] [DEBUG] Loading API{}のURL{}にヘッダー{}で、POSTリクエストされたvia reflected sources.
+22-05-2023 08:47:19.725 [java] [DEBUG] Loading API{}のURL{}にボディ{}JSONファイルの内容でPUTリクエストされたvia reflected sources.
+22-05-2023 08:47:19.726 [java] [DEBUG] Loading API{}のURL{}にPUTリクエストされたvia reflected sources.
+22-05-2023 08:47:19.726 [java] [DEBUG] Loading API{}のURL{}にボディ{}JSONファイルの内容、ヘッダー{}で、POSTリクエストされたvia reflected sources.
+22-05-2023 08:47:19.726 [java] [DEBUG] Loading URL{}にヘッダー{}で、POSTリクエストを送るvia reflected sources.
+22-05-2023 08:47:19.726 [java] [DEBUG] Loading API{}のURL{}にPOSTリクエストされたvia reflected sources.
+22-05-2023 08:47:19.727 [java] [DEBUG] Loading API{}のURL{}にボディ{}JSONファイルの内容でPOSTリクエストされたvia reflected sources.
+22-05-2023 08:47:19.727 [java] [DEBUG] Loading API{}のURL{}にGETリクエストされたvia reflected sources.
+22-05-2023 08:47:19.727 [java] [DEBUG] Scanning packages for hooks
+22-05-2023 08:47:19.730 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+22-05-2023 08:47:19.730 [java] [DEBUG] 	API{}のURL{}にパス{}に真偽値{}を持つJSONをリクエストされた : null
+22-05-2023 08:47:19.730 [java] [DEBUG] 	レスポンスのJSONの{}が小数の{}である : null
+22-05-2023 08:47:19.730 [java] [DEBUG] 	API{}のURL{}にパス{}に文字列{}を持つJSONでPUTリクエストされた : null
+22-05-2023 08:47:19.730 [java] [DEBUG] 	レスポンスヘッダーに{}が存在し、その値が{}である : null
+22-05-2023 08:47:19.730 [java] [DEBUG] 	レスポンスのJSONの配列{}が、数値{}の昇順に並んでいる : null
+22-05-2023 08:47:19.730 [java] [DEBUG] 	レスポンスのJSONの配列{}が、タイムゾーン付きの日付/時間{}の降順に並んでいる : null
+22-05-2023 08:47:19.731 [java] [DEBUG] 	レスポンスのJSONの配列{}に、小数値{}が存在しない : null
+22-05-2023 08:47:19.731 [java] [DEBUG] 	API{}のURL{}にヘッダー{}:{}を含むリクエストをされた : null
+22-05-2023 08:47:19.731 [java] [DEBUG] 	URL{}にボディ{}で、PUTリクエストを送る : null
+22-05-2023 08:47:19.731 [java] [DEBUG] 	URL{}にボディ{}、ヘッダー{}で、POSTリクエストを送る : null
+22-05-2023 08:47:19.731 [java] [DEBUG] 	API{}のURL{}にパス{}に真偽値{}を持つJSONでPOSTリクエストされた : null
+22-05-2023 08:47:19.731 [java] [DEBUG] 	API{}のURL{}にDELETEリクエストされた : null
+22-05-2023 08:47:19.731 [java] [DEBUG] 	API{}のURL{}にパス{}に小数値{}を持つJSONでPUTリクエストされた : null
+22-05-2023 08:47:19.731 [java] [DEBUG] 	API{}のURL{}にPOSTリクエストされた : null
+22-05-2023 08:47:19.731 [java] [DEBUG] 	レスポンスのJSONの配列{}が、文字列{}の昇順に並んでいる : null
+22-05-2023 08:47:19.731 [java] [DEBUG] 	レスポンスのJSONの{}の配列の、UniqueKey{}の値が{}である要素の{}が、小数値の{}である : null
+22-05-2023 08:47:19.731 [java] [DEBUG] 	レスポンスのJSONの配列{}が、数値{}の降順に並んでいる : null
+22-05-2023 08:47:19.731 [java] [DEBUG] 	レスポンスのJSONの{}が存在しない : null
+22-05-2023 08:47:19.731 [java] [DEBUG] 	API{}のURL{}にボディ{}JSONファイルの内容でPOSTリクエストされた : null
+22-05-2023 08:47:19.731 [java] [DEBUG] 	レスポンスのJSONの配列{}が、文字列{}の降順に並んでいる : null
+22-05-2023 08:47:19.731 [java] [DEBUG] 	レスポンスのJSONの{}が整数の{}である : null
+22-05-2023 08:47:19.731 [java] [DEBUG] 	レスポンスのJSONの{}が文字列の{}である : null
+22-05-2023 08:47:19.731 [java] [DEBUG] 	レスポンスのJSONの配列{}に、文字列{}が存在しない : null
+22-05-2023 08:47:19.731 [java] [DEBUG] 	レスポンスのJSONの配列{}が、日付/時間{}の昇順に並んでいる : null
+22-05-2023 08:47:19.731 [java] [DEBUG] 	レスポンスのJSONの{}が真偽値のfalseである : null
+22-05-2023 08:47:19.732 [java] [DEBUG] 	API{}のURL{}にボディ{}JSONファイルの内容でPUTリクエストされた : null
+22-05-2023 08:47:19.732 [java] [DEBUG] 	レスポンスのJSONの配列{}に、小数値{}が存在する : null
+22-05-2023 08:47:19.732 [java] [DEBUG] 	URL{}にヘッダー{}で、PUTリクエストを送る : null
+22-05-2023 08:47:19.732 [java] [DEBUG] 	レスポンスのJSONの配列{}に、整数値{}が存在しない : null
+22-05-2023 08:47:19.732 [java] [DEBUG] 	URL{}にPUTリクエストを送る : null
+22-05-2023 08:47:19.732 [java] [DEBUG] 	レスポンスのJSONの{}の配列の、UniqueKey{}の値が{}である要素の{}が、真偽値の{}である : null
+22-05-2023 08:47:19.732 [java] [DEBUG] 	レスポンスボディがバイナリ{}である : null
+22-05-2023 08:47:19.732 [java] [DEBUG] 	HelloWorldを出力する : null
+22-05-2023 08:47:19.732 [java] [DEBUG] 	URL{}にヘッダー{}で、DELETEリクエストを送る : null
+22-05-2023 08:47:19.732 [java] [DEBUG] 	レスポンスのJSONの{}の配列の長さが{}である : null
+22-05-2023 08:47:19.732 [java] [DEBUG] 	API{}のURL{}にパス{}に真偽値{}を持つJSONでPUTリクエストされた : null
+22-05-2023 08:47:19.732 [java] [DEBUG] 	レスポンスのJSONの配列{}に、文字列{}が存在する : null
+22-05-2023 08:47:19.732 [java] [DEBUG] 	API{}のURL{}にヘッダー{}で、POSTリクエストされた : null
+22-05-2023 08:47:19.732 [java] [DEBUG] 	URL{}にボディ{}、ヘッダー{}で、PUTリクエストを送る : null
+22-05-2023 08:47:19.732 [java] [DEBUG] 	レスポンスのJSONの{}が真偽値の{}である : null
+22-05-2023 08:47:19.732 [java] [DEBUG] 	URL{}にPOSTリクエストを送る : null
+22-05-2023 08:47:19.732 [java] [DEBUG] 	API{}のURL{}にGETリクエストされた : null
+22-05-2023 08:47:19.732 [java] [DEBUG] 	URL{}にボディ{}で、POSTリクエストを送る : null
+22-05-2023 08:47:19.732 [java] [DEBUG] 	レスポンスのJSONの{}の配列の、UniqueKey{}の値が{}である要素の{}が、文字列の{}である : null
+22-05-2023 08:47:19.733 [java] [DEBUG] 	API{}のURL{}にパス{}に整数値{}を持つJSONでPOSTリクエストされた : null
+22-05-2023 08:47:19.733 [java] [DEBUG] 	API{}のURL{}にパス{}に文字列{}を持つJSONをリクエストされた : null
+22-05-2023 08:47:19.733 [java] [DEBUG] 	API{}のURL{}にPUTリクエストされた : null
+22-05-2023 08:47:19.733 [java] [DEBUG] 	API{}のURL{}にパス{}に文字列{}を持つJSONでPOSTリクエストされた : null
+22-05-2023 08:47:19.733 [java] [DEBUG] 	API{}のURL{}にボディ{}JSONファイルの内容、ヘッダー{}で、PUTリクエストされた : null
+22-05-2023 08:47:19.733 [java] [DEBUG] 	レスポンスのJSONの{}の配列に、Key{}の値が{}である要素が存在する : null
+22-05-2023 08:47:19.733 [java] [DEBUG] 	URL{}にヘッダー{}で、POSTリクエストを送る : null
+22-05-2023 08:47:19.733 [java] [DEBUG] 	URL{}にDELETEリクエストを送る : null
+22-05-2023 08:47:19.733 [java] [DEBUG] 	レスポンスのJSONの{}が真偽値のtrueである : null
+22-05-2023 08:47:19.733 [java] [DEBUG] 	レスポンスのJSONの配列{}が、日付/時間{}の降順に並んでいる : null
+22-05-2023 08:47:19.733 [java] [DEBUG] 	API{}のURL{}にヘッダー{}で、GETリクエストされた : null
+22-05-2023 08:47:19.733 [java] [DEBUG] 	API{}のURL{}にパス{}に整数値{}を持つJSONをリクエストされた : null
+22-05-2023 08:47:19.733 [java] [DEBUG] 	レスポンスのJSONの{}の配列の、UniqueKey{}の値が{}である要素の{}が、整数値の{}である : null
+22-05-2023 08:47:19.733 [java] [DEBUG] 	レスポンスボディが文字列{}である : null
+22-05-2023 08:47:19.733 [java] [DEBUG] 	レスポンスステータスコードが{}である : null
+22-05-2023 08:47:19.733 [java] [DEBUG] 	API{}のURL{}にパス{}に小数値{}を持つJSONでPOSTリクエストされた : null
+22-05-2023 08:47:19.733 [java] [DEBUG] 	レスポンスのJSONの配列{}が、タイムゾーン付きの日付/時間{}の昇順に並んでいる : null
+22-05-2023 08:47:19.733 [java] [DEBUG] 	API{}のURL{}にパス{}に小数値{}を持つJSONをリクエストされた : null
+22-05-2023 08:47:19.733 [java] [DEBUG] 	URL{}にGETリクエストを送る : null
+22-05-2023 08:47:19.734 [java] [DEBUG] 	API{}のURL{}にヘッダー{}で、PUTリクエストされた : null
+22-05-2023 08:47:19.734 [java] [DEBUG] 	API{}のURL{}にヘッダー{}で、DELETEリクエストされた : null
+22-05-2023 08:47:19.734 [java] [DEBUG] 	API{}のURL{}にパス{}に整数値{}を持つJSONでPUTリクエストされた : null
+22-05-2023 08:47:19.734 [java] [DEBUG] 	URL{}にヘッダー{}で、GETリクエストを送る : null
+22-05-2023 08:47:19.734 [java] [DEBUG] 	レスポンスのJSONの配列{}に、整数値{}が存在する : null
+22-05-2023 08:47:19.734 [java] [DEBUG] 	API{}のURL{}にボディ{}JSONファイルの内容、ヘッダー{}で、POSTリクエストされた : null
+22-05-2023 08:47:21.135 [Gauge] [DEBUG] Validation completed.
+22-05-2023 08:47:21.135 [Gauge] [DEBUG] Run started
+22-05-2023 08:47:21.136 [Gauge] [DEBUG] Starting Html Report plugin
+22-05-2023 08:47:21.161 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+22-05-2023 08:47:21.161 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 33653
+22-05-2023 08:47:21.163 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 33653
+22-05-2023 08:47:21.163 [Gauge] [DEBUG] Initialising suite data store.
+22-05-2023 08:47:21.203 [java] [DEBUG] Executing 'HelloWorldを出力する' using 'class com.example.Hello.displayHello
+22-05-2023 08:47:21.222 [html-report] [DEBUG] Transformed SuiteResult to report structure
+22-05-2023 08:47:21.244 [html-report] [INFO] Successfully generated html-report to => /home/watanabejin/workspace/gauge-inte/reports/html-report/index.html
+22-05-2023 08:47:21.244 [html-report] [DEBUG] Done generating HTML report using theme from /home/watanabejin/.gauge/plugins/html-report/4.2.0/themes/default
+22-05-2023 08:47:21.245 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+22-05-2023 08:47:21.247 [java] [DEBUG] Killing Java runner...
+22-05-2023 08:47:21.248 [java] [DEBUG] Stopping execution pool...
+22-05-2023 08:47:21.248 [java] [DEBUG] Shutting down grpc server...
+22-05-2023 08:47:21.255 [java] [DEBUG] Runner killed gracefully.
+22-05-2023 08:47:21.654 [Gauge] [DEBUG] Runner with PID:113731 has exited
+22-05-2023 08:47:21.655 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+22-05-2023 08:47:21.655 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+22-05-2023 08:47:21.655 [Gauge] [INFO] 
+Total time taken: 86ms
+22-05-2023 08:47:21.655 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
