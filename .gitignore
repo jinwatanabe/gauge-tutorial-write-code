@@ -3,4 +3,5 @@
 logs
 reports
 target
-*.txt
+gauge-reports/
+build
