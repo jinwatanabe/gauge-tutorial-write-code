@@ -2,11 +2,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>gauge-inte</artifactId>
+    <artifactId>gauge-tutorial-write-code</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>gauge-inte</name>
+    <name>gauge-tutorial-write-code</name>
 
     <properties>
         <kotlin.version>1.6.0</kotlin.version>
