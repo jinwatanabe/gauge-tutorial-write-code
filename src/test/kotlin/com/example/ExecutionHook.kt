@@ -1,5 +1,8 @@
 package com.example
 
+import com.codeborne.selenide.Selenide
+import com.thoughtworks.gauge.AfterScenario
+import com.thoughtworks.gauge.AfterSuite
 import com.thoughtworks.gauge.BeforeSuite
 import org.openqa.selenium.WebDriver
 import org.openqa.selenium.chrome.ChromeDriver
@@ -13,5 +16,17 @@ class ExecutionHook {
         val options = ChromeOptions()
         options.addArguments("--port=25257") // CHROMEDRIVER_PORTと同じポート番号を指定
         driver = ChromeDriver(options) // driverをクラスのプロパティに代入
+        System.setProperty("chromeoptions.args", "--no-sandbox,--disable-dev-shm-usage,--remote-allow-origins=*")
     }
-}
+
+//    @AfterScenario
+//    fun tearDownScenario() {
+//        Selenide.webdriver().driver().clearCookies()
+//        Selenide.localStorage().clear()
+//        Selenide.sessionStorage().clear()
+//    }
+
+    @AfterSuite
+    fun tearDown() {
+        Selenide.closeWindow()
+    }}

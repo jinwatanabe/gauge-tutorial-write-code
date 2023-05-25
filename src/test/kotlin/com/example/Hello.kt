@@ -1,10 +1,13 @@
-package com.example
-
-import com.thoughtworks.gauge.Step
+import com.codeborne.selenide.Configuration
 import com.codeborne.selenide.Condition.*
 import com.codeborne.selenide.Selenide.*
+import com.thoughtworks.gauge.Step
 
 class Hello {
+    init {
+        Configuration.baseUrl = "https://www.google.com" // selenide.baseUrlを設定
+    }
+
     @Step("HelloWorldを出力する")
     fun displayHello(): String {
         return "HelloWorld"
@@ -12,8 +15,7 @@ class Hello {
 
     @Step("Googleのトップページを表示する")
     fun test() {
-        open("https://www.google.com")
+        open("/")
         `$`(".MV3Tnb").shouldBe(exactText("Googleについて"))
     }
-
 }
