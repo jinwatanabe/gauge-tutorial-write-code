@@ -17,6 +17,7 @@ class ExecutionHook {
         options.addArguments("--port=25257") // CHROMEDRIVER_PORTと同じポート番号を指定
         driver = ChromeDriver(options) // driverをクラスのプロパティに代入
         System.setProperty("chromeoptions.args", "--no-sandbox,--disable-dev-shm-usage,--remote-allow-origins=*")
+        driver.close()
     }
 
 //    @AfterScenario
@@ -28,5 +29,7 @@ class ExecutionHook {
 
     @AfterSuite
     fun tearDown() {
+        println("~~~~~~~~~~~~~~~~~")
         Selenide.closeWindow()
-    }}
+    }
+}
